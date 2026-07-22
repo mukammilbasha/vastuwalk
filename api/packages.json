@@ -1,0 +1,21 @@
+{
+  "updated": "2026-07-23",
+  "data": [
+    {
+      "id": 1,
+      "name": "Business Plan",
+      "price": 499,
+      "duration": 6,
+      "unit": "Monthly",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Personal Plan",
+      "price": 204,
+      "duration": 12,
+      "unit": "Hrs",
+      "status": "Active"
+    }
+  ]
+}

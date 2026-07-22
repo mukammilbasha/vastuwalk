@@ -1,0 +1,21 @@
+{
+  "updated": "2026-07-23",
+  "data": [
+    {
+      "id": 1,
+      "title": "Gold Coin Offer",
+      "length": "0:31",
+      "status": "Active",
+      "src": "assets/gallery/videos/offer-gold-coin.mp4",
+      "poster": "assets/gallery/videos/offer-gold-coin.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Festive Promotion",
+      "length": "0:10",
+      "status": "Active",
+      "src": "assets/gallery/videos/offer1.mp4",
+      "poster": "assets/gallery/videos/offer1.jpg"
+    }
+  ]
+}

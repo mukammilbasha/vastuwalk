@@ -1,0 +1,53 @@
+{
+  "updated": "2026-07-23",
+  "data": [
+    {
+      "id": 1,
+      "title": "Mystery Ring",
+      "price": 1000,
+      "category": "Rings",
+      "status": "Inactive",
+      "image": "assets/gallery/shots/product-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "சிரிக்கும் குபேரன்",
+      "price": 475,
+      "category": "Statues",
+      "status": "Active",
+      "image": "assets/gallery/shots/product-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "7 ஓடும் குதிரைகள் ரெசின் சிலை",
+      "price": 2870,
+      "category": "Statues",
+      "status": "Active",
+      "image": "assets/gallery/shots/product-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "கச்சவா யந்திரம் செம்பு ஆமை",
+      "price": 250,
+      "category": "Statues",
+      "status": "Active",
+      "image": "assets/gallery/shots/product-1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "அதிர்ஷ்டமான மூங்கில் செடி",
+      "price": 290,
+      "category": "Plant",
+      "status": "Active",
+      "image": "assets/gallery/shots/product-2.jpg"
+    },
+    {
+      "id": 6,
+      "title": "நலம் தரும் வாஸ்து செடிகள்",
+      "price": 1199,
+      "category": "Plant",
+      "status": "Active",
+      "image": "assets/gallery/shots/product-3.jpg"
+    }
+  ]
+}

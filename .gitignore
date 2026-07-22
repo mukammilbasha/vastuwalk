@@ -1,0 +1,16 @@
+# QA / build artefacts
+_preview/
+qa/
+node_modules/
+.vercel/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# never commit scraped production data or credentialed scripts
+scrape/
+screenshots/
+deck_build/
+*.log

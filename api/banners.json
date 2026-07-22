@@ -1,0 +1,33 @@
+{
+  "updated": "2026-07-23",
+  "data": [
+    {
+      "id": 1,
+      "title": "Grah Pravesh2",
+      "url": "https://vasthuwalk.com/",
+      "status": "Active",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "title": "Grah Praves",
+      "url": "https://vasthuwalk.com/",
+      "status": "Active",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "title": "Vaasthu Home",
+      "url": "https://vasthuwalk.com/",
+      "status": "Active",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "title": "Vaasthu Compass",
+      "url": "https://vasthuwalk.com/",
+      "status": "Active",
+      "image": ""
+    }
+  ]
+}

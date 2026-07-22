@@ -1,0 +1,71 @@
+/* ==========================================================================
+   VasthuWalk — Legal pages (terms / privacy)
+   ========================================================================== */
+
+.legal-body{background:var(--cream);}
+
+.legal-hdr{
+  background:var(--espresso);border-bottom:1px solid rgba(232,200,116,.18);
+  padding:.9rem 0;position:sticky;top:0;z-index:50;
+}
+.legal-hdr-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;}
+.legal-hdr .brand-logo{height:44px;}
+.legal-hdr .back-link{color:#d8c39c;border:1px solid rgba(232,200,116,.3);}
+.legal-hdr .back-link:hover{color:var(--gold-lt);background:rgba(232,200,116,.1);border-color:rgba(232,200,116,.5);}
+
+.legal{padding:4rem 0 5rem;}
+.legal-wrap{max-width:52rem;}
+
+.legal-head{margin-bottom:2.6rem;padding-bottom:2rem;border-bottom:1px solid var(--line);}
+.legal-head h1{font-size:clamp(2.1rem,4.4vw,3rem);margin:.6rem 0 .7rem;color:var(--ink);}
+.legal-meta{font-size:.92rem;color:var(--muted);}
+
+.legal-intro{
+  font-size:1.08rem;color:var(--brown);background:#fff;border:1px solid #ecdcb8;
+  border-left:4px solid var(--gold);border-radius:var(--r-md);padding:1.3rem 1.5rem;margin-bottom:2.4rem;
+}
+
+.legal-body-text h2{
+  font-size:1.35rem;color:var(--ink);margin:2.4rem 0 .9rem;
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:.7rem;
+}
+.legal-body-text h2 .ta{
+  font-family:var(--f-body);font-size:.88rem;font-weight:600;color:var(--gold-dk);
+  background:#f6ecd6;border-radius:100px;padding:.22rem .8rem;
+}
+.legal-body-text p{margin-bottom:1rem;color:#4a3a2b;line-height:1.75;}
+.legal-body-text ul{margin:0 0 1.2rem;padding-left:0;}
+.legal-body-text li{
+  position:relative;padding-left:1.6rem;margin-bottom:.6rem;color:#4a3a2b;line-height:1.7;
+}
+.legal-body-text li::before{
+  content:'';position:absolute;left:.35rem;top:.62rem;width:7px;height:7px;
+  border-radius:50%;background:var(--gg);
+}
+.legal-body-text li .ta{color:var(--muted);font-size:.9rem;margin-left:.4rem;}
+.legal-body-text a{color:var(--gold-dk);font-weight:600;text-decoration:underline;text-underline-offset:3px;}
+.legal-body-text a:hover{color:var(--brown);}
+
+.ta-block{
+  background:#f6efe0;border-radius:var(--r-sm);padding:.9rem 1.1rem;
+  font-size:.95rem;color:#5f4b36;line-height:1.85;
+}
+
+.contact-list li::before{background:var(--brown);}
+
+.legal-note{
+  margin-top:2.6rem;padding-top:1.4rem;border-top:1px solid var(--line);
+  font-size:.88rem;color:var(--muted);font-style:italic;
+}
+
+.legal-foot-nav{display:flex;flex-wrap:wrap;gap:1rem;margin-top:3rem;}
+
+.legal-ftr{padding-top:0;}
+.legal-ftr .ftr-bot{border-top:0;}
+
+@media (max-width:600px){
+  .legal{padding:2.5rem 0 3.5rem;}
+  .legal-body-text h2{font-size:1.18rem;}
+  .legal-intro{font-size:1rem;padding:1.1rem 1.2rem;}
+  .legal-foot-nav .btn{width:100%;}
+}
